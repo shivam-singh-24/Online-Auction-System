@@ -36,10 +36,19 @@ An **Online Auction System** built with **Spring Boot (Backend)** and **React (F
 cd auction-system/backend
 mvn spring-boot:run
 
-### ⚙️ Frontend Setup
-```bash
+### ⚙️ Frontend Setup 
 cd auction-system/frontend
 npm install
 npm start
+
+
+🗄 Database Setup
+Create a database in MySQL (e.g., auction_db)
+
+Update application.properties in the backend with your DB credentials
+
+Run the project – tables will auto-generate
+
+
 
 
