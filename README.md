@@ -33,11 +33,13 @@ An **Online Auction System** built with **Spring Boot (Backend)** and **React (F
 
 ### ⚙️ Backend Setup  
 ```bash
+cd auction-system/backend
+mvn spring-boot:run
 
-🎨 Frontend Setup
+### ⚙️ Frontend Setup
+```bash
 cd auction-system/frontend
 npm install
 npm start
 
-cd auction-system/backend
-mvn spring-boot:run
+
