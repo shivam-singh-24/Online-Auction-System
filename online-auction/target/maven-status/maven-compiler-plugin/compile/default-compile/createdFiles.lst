@@ -1,0 +1,6 @@
+com/auction/servlets/LoginServlet.class
+com/auction/servlets/AuctionServlet.class
+com/auction/servlets/RegisterServlet.class
+com/auction/filters/AuthFilter.class
+com/auction/util/DBUtil.class
+com/auction/servlets/BidServlet.class

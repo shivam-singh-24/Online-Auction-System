@@ -1,0 +1,131 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Roboto', system-ui, Arial, sans-serif;
+    margin: 24px;
+    background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  header h1 {
+    margin-bottom: 12px;
+    font-size: 2.2rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #0d6efd;
+    font-weight: bold;
+  }
+  
+  /* Cards (for auctions) */
+  .card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Inputs and buttons */
+  input, textarea, button {
+    padding: 10px;
+    margin: 6px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Hero / main section */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #ffffffaa;
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-bottom: 15px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .primary-btn {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+  }
+  
+  .primary-btn:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 8px;
+    margin-top: 50px;
+    box-shadow: 0 -4px 6px rgba(0,0,0,0.05);
+  }
+  
